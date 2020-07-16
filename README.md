@@ -1,5 +1,5 @@
 # Main.cpp
-The main.cpp file is showing an example of how to use 2D arrays in C.
+The main.cpp file shows an example of how to use 2D arrays in C.
 
 It includes:
 * Stack allocation of a 2D array.
