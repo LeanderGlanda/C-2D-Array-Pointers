@@ -7,7 +7,7 @@ int main()
 	// |	This section shows that a stack allocated 2D array is 1D in memory,				|
 	// |	and it shows how to create pointers to the colums to use them as 1D arrays.		|
 	// |=====================================================================================
-	printf("\x1B[32m" "Stack allocated 'a'\n\n" "\033[0m");
+	printf("Stack allocated 'a'\n\n");
 	{
 		// Create 'a' and print the pointers of 'a' `a[0-8]´ to see a difference of 36 ('int' is 4 byte and we have it 9 times) 
 		int a[9][9] =
@@ -49,7 +49,7 @@ int main()
 
 	}
 
-	printf("\n\x1B[32m" "Heap allocated 'a'\n\n" "\033[0m");
+	printf("\nHeap allocated 'a'\n\n");
 
 	// |=========================================================================================
 	// |	This section shows how to create a heap allocated 2D array which is 1D in memory.	|
@@ -78,7 +78,6 @@ int main()
 	
 	printf("\n\nPress ENTER to continue");
 
-	char ch;
 	getchar();
 
 	return 1;
